@@ -217,7 +217,7 @@ Write-Host "All file(s) have been downloaded/updated! "
 # Build project
 Write-Host "`n=========================== BUILD PROJECT =========================="
 
-dotnet publish -f="net7.0" -c Release -o $BuildPath MelissaMatchupObjectGlobalWindowsDotnet\MelissaMatchupObjectGlobalWindowsDotnet.csproj
+dotnet publish -f="net8.0" -c Release -o $BuildPath MelissaMatchupObjectGlobalWindowsDotnet\MelissaMatchupObjectGlobalWindowsDotnet.csproj
 
 # Run project
 if ([string]::IsNullOrEmpty($global) -and [string]::IsNullOrEmpty($us)) {
