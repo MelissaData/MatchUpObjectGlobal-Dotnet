@@ -5,7 +5,7 @@ This code showcases the Melissa MatchUp Object Global using C#.
 
 Please feel free to copy or embed this code to your own project. Happy coding!
 
-For the latest Melissa MatchUp Object Global release notes, please visit: https://releasenotes.melissa.com/on-premise-api/matchup-object-global/
+To view the latest Melissa MatchUp Object Global release notes or to subscribe to product notifications, please visit: https://releasenotes.melissa.com/on-premise-api/matchup-object-global/
 
 For further details, please visit: https://docs.melissa.com/on-premise-api/matchup-object-global/matchup-object-global-quickstart.html
 
@@ -20,8 +20,8 @@ And return
 - A txt file of US duplicate groups
 
 ## Tested Environments
-- Windows 10 64-bit .NET 8.0, Powershell 5.1
-- Melissa data files for 2025-Q4
+- Windows 11 64-bit .NET 8.0, Powershell 5.1
+- Melissa data files for 2026-Q1
 
 ## Required File(s) and Programs
 
@@ -32,7 +32,7 @@ This is the c++ code of the Melissa Object.
 - mdGlobalParse.dll
 
 #### Data File(s)
-- icudt52l.dat
+- icudt74l.dat
 - mdMatchup.dat
 - mdMatchup.mc
 - mdMatchup.sac
@@ -74,8 +74,8 @@ The console will then prompt you with the following warning shown in the image b
 
 #### Download this project
 ```
-git clone https://github.com/MelissaData/MatchUpObjectGlobal-Dotnet
-cd MatchUpObjectGlobal-Dotnet
+git clone https://git.melissadata.com/dtgroup/melissadataobjectexamples/net/melissamatchupobjectglobalwindowsnetexample.git
+cd melissamatchupobjectglobalwindowsnetexample
 ```
 
 #### Set up Melissa Updater 
